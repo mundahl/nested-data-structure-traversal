@@ -31,6 +31,7 @@ lesson_counter = 1
 for section in sections:
     if section["reset_lesson_position"]:
         lesson_counter = 1
+        section_counter = 1
 
     section["position"] = section_counter
     section_counter += 1
